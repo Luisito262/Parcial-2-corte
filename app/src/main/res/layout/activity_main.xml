@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/fondo1"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center_horizontal"
+        android:textColor="#EC6E6E"
+        android:textSize="24sp"
+        tools:text="@string/Id_Producto" />
+
+    <EditText
+        android:id="@+id/edtidproducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/artifika"
+        android:gravity="center_horizontal"
+        android:hint="@string/Id_Producto"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center_horizontal"
+        android:textColor="#ED7070"
+        android:textSize="24sp"
+        tools:text="@string/Nombre_Producto" />
+
+    <EditText
+        android:id="@+id/edtnomproducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/artifika"
+        android:gravity="center_horizontal"
+        android:hint="@string/Nombre_Producto"
+        android:inputType="textPersonName"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center_horizontal"
+        android:textColor="#EC6E6E"
+        android:textSize="24sp"
+        tools:text="@string/Precio_Producto" />
+
+    <EditText
+        android:id="@+id/edtprecioproducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/artifika"
+        android:gravity="center_horizontal"
+        android:hint="@string/Precio_Producto"
+        android:inputType="numberDecimal"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/alfa_slab_one"
+        android:gravity="center_horizontal"
+        android:textColor="#EC6E6E"
+        android:textSize="24sp"
+        tools:text="@string/Costo_Producto" />
+
+    <EditText
+        android:id="@+id/edtcostoproducto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:fontFamily="@font/artifika"
+        android:gravity="center_horizontal"
+        android:hint="@string/Costo_Producto"
+        android:inputType="numberDecimal"
+        android:textColor="#FFFFFF"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/btnguardar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1E88E5"
+        android:fontFamily="@font/alfa_slab_one"
+        android:shadowColor="#F4F4F4"
+        android:text="@string/Guardar_Producto"
+        android:textColor="#FDD835"
+        app:cornerRadius="30dp" />
+
+    <Button
+        android:id="@+id/btnconsultar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1E88E5"
+        android:fontFamily="@font/alfa_slab_one"
+        android:shadowColor="#FDFDFD"
+        android:text="@string/Consultar_Producto"
+        android:textColor="#FDD835"
+        app:cornerRadius="30dp" />
+
+    <Button
+        android:id="@+id/btnactualizar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1E88E5"
+        android:fontFamily="@font/alfa_slab_one"
+        android:shadowColor="#FFFFFF"
+        android:text="@string/Actualizar_Producto"
+        android:textColor="#FDD835"
+        app:cornerRadius="30dp" />
+
+    <Button
+        android:id="@+id/btnborrar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#1E88E5"
+        android:fontFamily="@font/alfa_slab_one"
+        android:shadowColor="#FFFFFF"
+        android:text="@string/Borrar_Producto"
+        android:textColor="#FDD835"
+        app:cornerRadius="30dp" />
+
+
+</LinearLayout>

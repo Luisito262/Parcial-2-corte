@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Parcial 2</string>
+    <string name="Id_Producto">Id Producto</string>
+    <string name="Nombre_Producto">Nombre Producto</string>
+    <string name="Precio_Producto">Precio Producto</string>
+    <string name="Guardar_Producto">Guardar</string>
+    <string name="Borrar_Producto">Borrar</string>
+    <string name="Actualizar_Producto">Actualizar</string>
+    <string name="Consultar_Producto">Consultar</string>
+    <string name="Costo_Producto">Costo Producto</string>
+</resources>
